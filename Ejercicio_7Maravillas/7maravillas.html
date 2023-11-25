@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="7maravillas.css">
+    <title>7 MARAVILLAS DEL MUNDO</title>
+</head>
+<body>
+    <header>7 MARAVILLAS DEL MUNDO</header>
+    <h1>¿Qué Maravilla del mundo es?</h1>
+
+    <!-- Pantalla inicial -->
+    <div id="pantalla-inicial">
+        <p>¿A qué maravilla pertenece la imagen?</p>
+        <button class="btn" onclick="comenzarJuego()">JUGAR</button>
+        <button onclick="irAPagina('Indexjuegos.html')">Regresar al menu</button>
+    </div>
+
+    <!-- Pantalla juego -->
+    <div class="pantalla-juego" id="pantalla-juego">
+        <img src="img/chichen-itza.svg" alt="" id="imgMaravilla">
+        <div class="opciones">
+            <div class="opcion" id="op0" onclick="comprobarRespuesta(0)">
+                <div class="letra" id="l0">A</div>
+                <div class="nombre" id="n0">OPCION A</div>
+            </div>
+            <div class="opcion" id="op1" onclick="comprobarRespuesta(1)">
+                <div class="letra" id="l1">B</div>
+                <div class="nombre" id="n1">OPCION B</div>
+            </div>
+            <div class="opcion" id="op2" onclick="comprobarRespuesta(2)">
+                <div class="letra" id="l2">C</div>
+                <div class="nombre" id="n2">OPCION C</div>
+            </div>
+        </div>
+    </div>
+    <!-- Pantalla final -->
+    <div id="pantalla-final">
+        <h2>CORRECTAS: <span id="numCorrectas">3</span></h2>
+        <h2>INCORRECTAS: <span id="numIncorrectas">2</span></h2>
+        <button class="btn" onclick="volverAlInicio()">VOLVER AL INICIO</button>
+    </div>
+
+    <footer>7 MARAVILLAS DEL MUNDO</footer>
+    
+    <script src="7maravillas.js"></script>
+    <script>
+        // Función para redirigir a otroarchivo.html
+        function irAPagina() {
+            window.location.href = "Indexjuegos.html";
+        }
+    </script>
+
+
+</body>
+</html>
