@@ -1,0 +1,72 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  }
+  div#general {
+    margin: 100px;
+    align-self: center;
+  
+    width: 60%;
+    height: 80%;
+  }
+  div#header{  /* dise;o y medidas de la cabezera de la pag */
+    width: 100%;
+    height: 180px;
+    background-color: #d6faad ;    /*  el color de la seccion  */
+    border-style: outset;   /* estilo del borde de la seccion */
+    
+  }
+  div#navegador{
+    margin-left: 3%;
+    margin-top: 50px;
+    width: 90%;
+    height: 80px;
+    background-color: #fdff9e;  /*  el color de la seccion  */
+    border-style: outset;
+  }
+  div#aside{     /* medidas y dise;o visual del  elementos lateral izquierdo */
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 60px;
+    width: 45%;
+    height: 450px;
+    float: left;
+    background-color: #c3f58b;   /*  el color de la seccion  */
+    border-style: outset; /* estilo del borde de la seccion */
+    border-width: thick; /* estilo del borde de la seccion */
+  }
+  div#section{
+    margin-top: 30px;
+    margin-right: 50px;
+    width: 40%;
+    height: 450px;
+    float: left;
+    background-color: #dbff88;  /*  el color de la seccion  */
+    border-style: outset;
+    
+  }
+  div#article{
+    margin-top: 20%;
+    margin: 10%;
+    width: 80%;
+    height: 100px;
+    background-color: #f5ff9a;  /*  el color de la seccion  */
+    border-style: outset;
+  }
+  div#article2{
+    margin-top: 5%;
+    margin: 10%;
+    width: 80%;
+    height: 100px;
+    background-color: #fffea8;  /*  el color de la seccion  */
+    border-style: outset;
+  }
+  
+  div#footer{  /* definimos el dise;o de la parte baja de la pag  */
+    margin-top: 5%;
+    width: 98%;
+    height: 100px; /*  que tan alto se sube */
+    float:left;
+    background-color: #88f16e;  /*  el color de la seccion  */
+    border-style: outset;  /* estilo del borde de la seccion */
+  }
