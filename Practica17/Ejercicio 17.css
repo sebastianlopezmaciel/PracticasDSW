@@ -1,0 +1,84 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+div#general {
+    margin:100px;
+    width: 2600px;
+    height: 1080px;
+    background-color: #131212;
+    border-style:double;
+    border-width: thin;
+}
+/*#divEncabezado */
+div#divEncabezado {
+  margin: 20px;
+  height: 60px;
+  background-color: #bef781 ;
+  border-style:double;
+  border-width: thin;
+
+}
+div#divmenucont{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 76%;
+  border-style:double;
+  border-width: thin;
+}
+/*#divMenu */
+div#divMenu{
+
+  height: 60px;
+ background-color:   #5ca80b;
+ border-style:double;
+ border-width: thin;
+}
+/*#divPublicidad */
+div#divPublicidad{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 10px;
+  float:left;
+  width: 24%;
+  height: 700px;
+  background-color: #04b4ae;
+  border-style:double;
+  border-width: thin;
+
+}
+/*#divContenido */
+div#divContenido{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  float:left;
+  width: 45.5%;
+  height: 700px;
+  background-color: #f4fa58;
+  border-style:double;
+  border-width: thin;
+}
+
+/*#divLink */
+div#divLink{
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 20px;
+  width: 25%;
+  height: 700px;
+  float: left;
+  background-color: #04b4ae;
+  border-style:double;
+  border-width: thin;
+}
+/*#divPie */
+div#divPie{
+  margin:20px;
+  height: 90px;
+  background-color: #e2a9f3;
+  border-style:double;
+  border-width: thin;
+
+}
