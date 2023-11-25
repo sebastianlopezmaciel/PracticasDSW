@@ -1,0 +1,43 @@
+.em-example {
+    width: 10em;
+    height: 5em;
+    font-size: 2em;
+    border: 1px solid black;
+    background-color: lightblue;
+  }
+
+  .rem-example {
+    font-size: 1.5rem;
+    border: 1px solid black;
+    background-color: lightgreen;
+  }
+  
+  .ex-example {
+    font-size: 2ex;
+    border: 1px solid black;
+    background-color: lightyellow;
+  }
+  
+
+  .vwvh-example {
+    width: 50vw;
+    border: 1px solid black;
+    background-color: lightblue;
+  }
+  
+
+  
+  .vmin-example {
+    width: 50vmin;
+    height: 25vmin;
+    border: 1px solid black;
+    background-color: lightpink;
+  }
+  
+  .vmax-example {
+    width: 50vmax;
+    height: 25vmax;
+    border: 1px solid black;
+    background-color: rgb(201, 155, 155);
+  }
+  
