@@ -1,0 +1,88 @@
+/* Estilos de el sitio web */
+body {
+    font-family: Arial, sans-serif;
+   
+        background-image: url('https://media.giphy.com/media/beyUZ1fJVWfyE/giphy.gif');
+        background-repeat: no-repeat;
+        
+            color: #fff;
+      
+        top: 0;
+      
+}
+p {
+    text-align: justify;
+  }
+
+  header {
+    background: linear-gradient(to right, yellow, black, red);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    margin: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .registroForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+  }
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.image-container p {
+    margin: 5px 0;
+}
+
+.image-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 10px 0;
+}
